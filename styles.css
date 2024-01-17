@@ -1,0 +1,30 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-father {
+    min-width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div-childs {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid red;
+}
